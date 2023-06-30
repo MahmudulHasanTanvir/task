@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 4%;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 40px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+.txt{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.headline{
+    display: flex;
+    justify-content: space-between;
+}
+.container{
+    margin-left: 5%;
+}
+.short{
+    line-height: 26.6px;
+    color: #565656;
+    margin-bottom: 30px;
+}
+.uno{
+    position: absolute;
+    left: 1086px;
+    top: 167px;
+}
+.dos{
+    position: absolute;
+    left: 1643px;
+    top: 680px;
+}
+.tres{
+    position: absolute;
+    top: 380px;
+    left: 55px;
+}
+.rare a{
+    background: #2639ED;
+    padding: 20px 40px;
+    font-size: 20px;
+    width: 215px;
+    color: #fff ;
+    border-radius: 56px;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+}
+.client{
+    display: flex;
+    margin-top: 200px;
+}
+.imge{
+    margin-left: 300px;
+}
+.help{
+    margin-top: 500px;
+    margin-bottom: 1080px;
+}
+.card_one,
+.card_two,
+.card_three,
+.card_four{
+    background: #fff;
+    margin: 10px;
+    text-align: center;
+    width: 308px;
+    height: 379px;
+    border-radius: 40px;
+    position: absolute;
+    box-shadow: 1px 1px 1px 1px #f2f2f2;
+}
+.pic{
+    position: absolute;
+    left: 65px;
+    top: 1380px;
+    z-index: -10;
+}
+.pik{
+    left: 405px;
+    position: absolute;
+    top: 1267px;
+    width: 1498px;
+    height: 619px;
+    z-index: -10;
+
+}
+.pix{
+    position: absolute;
+    top: 1830px;
+    left: 1677px;
+    z-index: -20;
+}
+.piks{
+    position: absolute;
+    top: 1760px;
+    left: 125px;
+    z-index: -20;
+}
+.small{
+    line-height: 25.6px;
+    color: #757575;
+    font-size: 16px;
+}
+.logo{
+    width: 100px;
+    border-radius: 20px;
+    background: #cae0fc;
+    height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.loogo{
+    width: 100px;
+    border-radius: 20px;
+    background: #FFF7E3;
+    height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.looogo{
+    width: 100px;
+    border-radius: 20px;
+    background: #FFF2F8;
+    height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.loooogo{
+    width: 100px;
+    border-radius: 20px;
+    background: #DEFFEE;
+    height: 100px;
+    padding: 10px;
+    margin-top: 50px;
+}
+.bigtxt{
+    margin: 30px 5px;
+}
+.card_one{
+    left: 650px;
+    top: 1180px;
+}
+.card_two{
+    left: 1150px;
+    top: 1100px;
+}
+.card_three{
+    left: 650px;
+    top: 1600px;
+}
+.card_four{
+    left: 1150px;
+    top: 1520px;
+}
+.pick{
+    width: 650px;
+    height: 472px;
+    left: 300px;
+    position: absolute;
+}
+.iimage{
+    position: absolute;
+    top: 2193px;
+    left: 1050px;
+    z-index: -10;
+}
+.talk{
+    position: absolute;
+    left: 1089px;
+    top: 2220px;
+
+}
+.txtarea{
+    position: absolute;
+    left: 35%;
+    top: 2648px;
+    text-align: center;
+}
+.testi{
+    position: absolute;
+    left: 117px;
+    top: 2873px;
+}
+.test{
+    position: absolute;
+    left: 120px;
+    top: 3150px;
+    z-index: -10;
+}
+.teste{
+    position: absolute;
+    left: 380px;
+    top: 2860px;
+    z-index: -10;
+}
+.mid{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 10px;
+}
+.msg{
+    position: absolute;
+    left: 680px;
+    top: 2980px;
+}
+.ppl{
+    position: absolute;
+    left: 1350px;
+    top: 2880px;
+}
+.circle{
+    position: absolute;
+    left: 1380px;
+    top: 2950px;
+    z-index: -10;
+}
+.words{
+    position: absolute;
+    left: 415px;
+    top: 3590px;
+}
+.email{
+    font-size: 20px;
+    width: 250px;
+    border: transparent;
+    z-index: 10;
+    left: 40px;
+    position: absolute;
+    top: 30px;
+}
+.raree{
+    background: #2639ED;
+    padding: 20px 30px;
+    font-size: 20px;
+    width: 200px;
+    color: #fff ;
+    border-radius: 56px;
+    text-decoration: none;
+    position: absolute;
+    left: 390px;
+    top: 10px;
+}
+.email_box{
+    position: absolute;
+    left: 1000px;
+    top: 3590px;
+    background: #fff;
+    width: 600px;
+    height: 80px;
+    border-radius: 56px;
+    box-shadow: 1px 1px 1px 1px #e4e4e4;
+}
+.nwsbg,
+.nwsltrbg{
+    position: absolute;
+}
+.nwsbg{
+    left:360px;
+    top: 3499px;
+    width: 1300px;
+    height: 300px;
+}
+.nwsltrbg{
+    left: 1165px;
+    top: 3499px;
+    height: 305px;
+}
+.rect{
+    position: absolute;
+    left: 320px;
+    top: 3645px;
+    z-index: -10;
+}
+.footer{
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    position: absolute;
+    width: 1480px;
+    left: 220px;
+    top: 4000px;
+    display: flex;
+}
+.outro{
+    margin-top:150px;
+}
+.facebook,
+.twitter,
+.linkedin{
+    margin-right: 15px;
+    margin-top: 20px;
+}
+.end{
+    top: 4400px;
+    position: absolute;
+    color: #fff;
+}
+.sublink {
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 19px;
+    margin-left: 150px;
+}
+ul li ,a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
+.wwd,
+.company,
+.support,
+.contact{
+    margin-right: 100px;
+}
+.new{
+    margin-bottom: 50px;
+}
+.margin{
+    margin-bottom: 5%;
+}
+.social{
+    margin-bottom: 20px;
+}
