@@ -11,6 +11,11 @@ nav{
     align-items: center;
     padding: 3% 4%;
 }
+ul li ,a {
+    color: #000;
+    text-decoration: none;
+    list-style: none;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -24,40 +29,24 @@ nav{
 .nav-links ul li a{
     color: #000;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
 }
 .txt{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 600;
     margin-bottom: 30px;
-}
-.headline{
-    display: flex;
-    justify-content: space-between;
-}
-.container{
-    margin-left: 5%;
 }
 .short{
     line-height: 26.6px;
     color: #565656;
     margin-bottom: 30px;
+    font-size: 16px;
 }
-.uno{
-    position: absolute;
-    left: 1086px;
-    top: 167px;
-}
-.dos{
-    position: absolute;
-    left: 1643px;
-    top: 680px;
-}
-.tres{
-    position: absolute;
-    top: 380px;
-    left: 55px;
+.small{
+    line-height: 25.6px;
+    color: #757575;
+    font-size: 16px;
 }
 .rare a{
     background: #2639ED;
@@ -70,16 +59,84 @@ nav{
     position: relative;
     z-index: 10;
 }
-.client{
+.content{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.uno{
+    position: relative;
+    left: -6%;
+}
+.button{
+    margin-top: 50px;
+}
+.frame{
+    width: 900px;
+    height: 590px;
+    float: right;
+}
+.headline{
     display: flex;
-    margin-top: 200px;
+    justify-content: space-between;
 }
-.imge{
-    margin-left: 300px;
+.dos{
+    position: relative;
+    left: 20.4%;
+    z-index: -10;
 }
-.help{
-    margin-top: 500px;
-    margin-bottom: 1080px;
+.tres{
+    position: relative;
+    left: 70%;
+    top: 60%;
+    z-index: -10;
+}
+.client{
+    margin-left: 5%;
+    margin-top: 10%;
+    display: flex;
+}
+.img{
+    margin-left: 170px;
+}
+.icons{
+    margin-right: 170px;
+}
+.up{
+    top: -9%;
+    position: relative;
+}
+.sentences{
+    margin-left: 5%;
+    margin-top: 30%;
+    float: left;
+}
+.pic{
+    position: absolute;
+    left: 2%;
+    top: 175%;
+    z-index: -10;
+    width: 210px;
+
+}
+.pik{
+    width: 1455px;
+    height: 850px;
+    position: absolute;
+    left: 23.5%;
+    top: 150%;
+    z-index: -1000;
+}
+.piks{
+    position: absolute;
+    left: 9%;
+    top: 226%;
+    z-index: -2000;
+}
+.pix{
+    position: absolute;
+    left: 80%;
+    top: 232%;
+    z-index: -2000;
 }
 .card_one,
 .card_two,
@@ -91,48 +148,16 @@ nav{
     width: 308px;
     height: 379px;
     border-radius: 40px;
-    position: absolute;
-    box-shadow: 1px 1px 1px 1px #f2f2f2;
-}
-.pic{
-    position: absolute;
-    left: 65px;
-    top: 1380px;
-    z-index: -10;
-}
-.pik{
-    left: 405px;
-    position: absolute;
-    top: 1267px;
-    width: 1498px;
-    height: 619px;
-    z-index: -10;
-
-}
-.pix{
-    position: absolute;
-    top: 1830px;
-    left: 1677px;
-    z-index: -20;
-}
-.piks{
-    position: absolute;
-    top: 1760px;
-    left: 125px;
-    z-index: -20;
-}
-.small{
-    line-height: 25.6px;
-    color: #757575;
-    font-size: 16px;
+    box-shadow: 1px 1px 2px 2px #f2f2f2;
 }
 .logo{
     width: 100px;
     border-radius: 20px;
-    background: #cae0fc;
+    background: #f1f7ff;
     height: 100px;
     padding: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 .loogo{
     width: 100px;
@@ -141,6 +166,7 @@ nav{
     height: 100px;
     padding: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 .looogo{
     width: 100px;
@@ -149,6 +175,7 @@ nav{
     height: 100px;
     padding: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 .loooogo{
     width: 100px;
@@ -157,102 +184,71 @@ nav{
     height: 100px;
     padding: 10px;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
-.bigtxt{
-    margin: 30px 5px;
+.history{
+    margin-top: 81%;
+    display: flex;
+    margin-left: 5%;
 }
-.card_one{
-    left: 650px;
-    top: 1180px;
-}
-.card_two{
-    left: 1150px;
-    top: 1100px;
-}
-.card_three{
-    left: 650px;
-    top: 1600px;
-}
-.card_four{
-    left: 1150px;
-    top: 1520px;
-}
-.pick{
-    width: 650px;
-    height: 472px;
-    left: 300px;
-    position: absolute;
+.sentence{
+    margin-top: 5%;
+    margin-left: 20%;
 }
 .iimage{
     position: absolute;
-    top: 2193px;
-    left: 1050px;
-    z-index: -10;
+    z-index: -20;
+    left: 55.5%;
+    top: 288%;
+    width: 210px;
 }
-.talk{
-    position: absolute;
-    left: 1089px;
-    top: 2220px;
-
+.testimonials{
+    margin-top: 10%;
 }
 .txtarea{
-    position: absolute;
-    left: 35%;
-    top: 2648px;
     text-align: center;
-}
-.testi{
-    position: absolute;
-    left: 117px;
-    top: 2873px;
-}
-.test{
-    position: absolute;
-    left: 120px;
-    top: 3150px;
-    z-index: -10;
 }
 .teste{
     position: absolute;
-    left: 380px;
-    top: 2860px;
+    left: 14%;
     z-index: -10;
 }
-.mid{
-    font-size: 24px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
+.test{
+    position: absolute;
+    left: 2%;
+    top: 408%;
+    z-index: -10;
+}
+.testimonial{
+    margin-top: 7%;
+    display: flex;
 }
 .msg{
-    position: absolute;
-    left: 680px;
-    top: 2980px;
-}
-.ppl{
-    position: absolute;
-    left: 1350px;
-    top: 2880px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
 }
 .circle{
     position: absolute;
-    left: 1380px;
-    top: 2950px;
+    left: 70%;
+    top: 388%;
     z-index: -10;
 }
-.words{
-    position: absolute;
-    left: 415px;
-    top: 3590px;
+.email_box{
+    background: #fff;
+    width: 600px;
+    height: 80px;
+    border-radius: 56px;
+    box-shadow: 1px 1px 1px 1px #e4e4e4;
+    z-index: 20;
+    margin-top: 80px;
+    margin-left: 30px;
 }
 .email{
-    font-size: 20px;
-    width: 250px;
     border: transparent;
-    z-index: 10;
-    left: 40px;
-    position: absolute;
-    top: 30px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .raree{
     background: #2639ED;
@@ -262,63 +258,50 @@ nav{
     color: #fff ;
     border-radius: 56px;
     text-decoration: none;
-    position: absolute;
-    left: 390px;
-    top: 10px;
+    position: relative;
+    left: 60%;
+    top: -54%;
 }
-.email_box{
-    position: absolute;
-    left: 1000px;
-    top: 3590px;
-    background: #fff;
-    width: 600px;
-    height: 80px;
-    border-radius: 56px;
-    box-shadow: 1px 1px 1px 1px #e4e4e4;
+.words{
+    background: #f4f9ff;
+    width: 1400px;
+    height: 300px;
+    border-radius: 75px;
+    position: relative;
+    margin: auto;
+    display: flex;
 }
-.nwsbg,
 .nwsltrbg{
     position: absolute;
-}
-.nwsbg{
-    left:360px;
-    top: 3499px;
-    width: 1300px;
+    top: 445.8%;
+    left: 60%;
     height: 300px;
 }
-.nwsltrbg{
-    left: 1165px;
-    top: 3499px;
-    height: 305px;
+.newsletter{
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+.rekt{
+    position: absolute;
+    left: 79.8%;
+    top: 440%;
 }
 .rect{
     position: absolute;
-    left: 320px;
-    top: 3645px;
-    z-index: -10;
+    left: 11.6%;
+    top: 462%;
+}
+.model{
+    margin-left: 100px;
+    padding-top: 80px;
 }
 .footer{
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
-    position: absolute;
     width: 1480px;
-    left: 220px;
-    top: 4000px;
     display: flex;
-}
-.outro{
-    margin-top:150px;
-}
-.facebook,
-.twitter,
-.linkedin{
-    margin-right: 15px;
-    margin-top: 20px;
-}
-.end{
-    top: 4400px;
-    position: absolute;
-    color: #fff;
+    margin: auto;
+    margin-bottom: 2%;
 }
 .sublink {
     width: 100%;
@@ -326,26 +309,38 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 19px;
     margin-left: 150px;
 }
-ul li ,a {
-    color: #000;
-    text-decoration: none;
-    list-style: none;
+.mid{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+}
+.outro{
+    margin-top: 6.3%;
+}
+.margin{
+    margin-bottom: 5%;
 }
 .wwd,
 .company,
 .support,
 .contact{
-    margin-right: 100px;
-}
-.new{
-    margin-bottom: 50px;
-}
-.margin{
-    margin-bottom: 5%;
+    margin-right: 120px;
 }
 .social{
-    margin-bottom: 20px;
+    margin-bottom: 5%;
+}
+.slot:nth-child(odd){
+    margin-top: 100px;
+}
+.slot{
+    margin-right: 20px;
+}
+.slots{
+    display: flex;
+    float: right;
+    margin-right: 20%;
+    margin-top: 13%;
 }
