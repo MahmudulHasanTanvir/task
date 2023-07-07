@@ -5,13 +5,21 @@
     box-sizing: border-box;
     font-family: 'Sen', sans-serif;
 }
+.header,
+.help,
+.history,
+.testimonials,
+.footer{
+    margin-left: 5%;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3% 4%;
 }
-ul li ,a {
+ul li ,
+a {
     color: #000;
     text-decoration: none;
     list-style: none;
@@ -27,116 +35,61 @@ ul li ,a {
     position: relative;
 }
 .nav-links ul li a{
-    color: #000;
-    text-decoration: none;
     font-size: 17px;
     font-weight: 600;
 }
-.txt{
-    font-size: 50px;
+.heavy{
+    font-size: 40px;
     font-weight: 600;
-    margin-bottom: 30px;
 }
 .short{
-    line-height: 26.6px;
     color: #565656;
-    margin-bottom: 30px;
-    font-size: 16px;
+    font-style: 16px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+.medium{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
 }
 .small{
     line-height: 25.6px;
     color: #757575;
     font-size: 16px;
 }
-.rare a{
-    background: #2639ED;
+.hero-btn {
+    background: #2639ed;
     padding: 20px 40px;
     font-size: 20px;
     width: 215px;
     color: #fff ;
     border-radius: 56px;
-    text-decoration: none;
-    position: relative;
-    z-index: 10;
-}
-.content{
-    margin-left: 5%;
-    margin-top: 10%;
-}
-.uno{
-    position: relative;
-    left: -6%;
-}
-.button{
-    margin-top: 50px;
-}
-.frame{
-    width: 900px;
-    height: 590px;
-    float: right;
+    border: transparent;
+    cursor: pointer;
+    margin-top: 2%;
 }
 .headline{
     display: flex;
     justify-content: space-between;
 }
-.dos{
-    position: relative;
-    left: 20.4%;
-    z-index: -10;
-}
-.tres{
-    position: relative;
-    left: 70%;
-    top: 60%;
-    z-index: -10;
-}
-.client{
-    margin-left: 5%;
-    margin-top: 10%;
+.client_section{
     display: flex;
-}
-.img{
-    margin-left: 170px;
+    margin-top: 10%;
+    margin-right: 5%;
+    justify-content: space-between;
 }
 .icons{
-    margin-right: 170px;
+    margin-top: 3%;
+    padding-right: 100px;
 }
-.up{
-    top: -9%;
-    position: relative;
+.help{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
 }
-.sentences{
-    margin-left: 5%;
-    margin-top: 30%;
-    float: left;
-}
-.pic{
-    position: absolute;
-    left: 2%;
-    top: 175%;
-    z-index: -10;
-    width: 210px;
-
-}
-.pik{
-    width: 1455px;
-    height: 850px;
-    position: absolute;
-    left: 23.5%;
-    top: 150%;
-    z-index: -1000;
-}
-.piks{
-    position: absolute;
-    left: 9%;
-    top: 226%;
-    z-index: -2000;
-}
-.pix{
-    position: absolute;
-    left: 80%;
-    top: 232%;
-    z-index: -2000;
+.help-content{
+    margin-top: 20%;
 }
 .card_one,
 .card_two,
@@ -151,7 +104,6 @@ ul li ,a {
     margin-bottom: 10%;
 }
 .logo{
-    width: 100px;
     border-radius: 20px;
     background: #f1f7ff;
     height: 100px;
@@ -160,7 +112,6 @@ ul li ,a {
     margin-bottom: 20px;
 }
 .loogo{
-    width: 100px;
     border-radius: 20px;
     background: #FFF7E3;
     height: 100px;
@@ -169,7 +120,6 @@ ul li ,a {
     margin-bottom: 20px;
 }
 .looogo{
-    width: 100px;
     border-radius: 20px;
     background: #FFF2F8;
     height: 100px;
@@ -186,142 +136,99 @@ ul li ,a {
     margin-top: 50px;
     margin-bottom: 20px;
 }
-.history{
-    margin-top: 81%;
+.slots{
     display: flex;
-    margin-left: 5%;
+    float: right;
+    margin-right: 30%;
 }
-.sentence{
-    margin-top: 5%;
-    margin-left: 20%;
+.slot{
+    margin-right: 5%;
 }
-.iimage{
-    position: absolute;
-    z-index: -20;
-    left: 55.5%;
-    top: 288%;
-    width: 210px;
+.slot:nth-child(odd){
+    margin-top: 100px;
+}
+.history{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.history-content{
+    margin-right: 5%;
 }
 .testimonials{
     margin-top: 10%;
 }
-.txtarea{
+.testimonial-content{
     text-align: center;
 }
-.teste{
-    position: absolute;
-    left: 14%;
-    z-index: -10;
-}
-.test{
-    position: absolute;
-    left: 2%;
-    top: 408%;
-    z-index: -10;
-}
 .testimonial{
-    margin-top: 7%;
     display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
 }
-.msg{
-    margin-left: 10%;
-    margin-right: 10%;
+.testimonial-people{
+    margin-right: 5%;
+}
+.testimonial-msg{
     margin-top: 5%;
 }
-.circle{
-    position: absolute;
-    left: 70%;
-    top: 388%;
-    z-index: -10;
+.words{
+    background: #f4f9ff;
+    border-radius: 75px;
+    position: relative;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.model{
+    margin-top: 7%;
+    margin-left: 7%;
 }
 .email_box{
     background: #fff;
-    width: 600px;
+    width:40%;
     height: 80px;
     border-radius: 56px;
-    box-shadow: 1px 1px 1px 1px #e4e4e4;
-    z-index: 20;
-    margin-top: 80px;
-    margin-left: 30px;
+    box-shadow: 1px 2px 2px 1px #e4e4e4;
+    margin-right: 10%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
 }
 .email{
     border: transparent;
     font-size: 18px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 50%;
 }
-.raree{
+.hero-btn-small{
     background: #2639ED;
-    padding: 20px 30px;
+    padding: 25px 35px;
     font-size: 20px;
     width: 200px;
+    height: 70px;
     color: #fff ;
     border-radius: 56px;
     text-decoration: none;
-    position: relative;
-    left: 60%;
-    top: -54%;
-}
-.words{
-    background: #f4f9ff;
-    width: 1400px;
-    height: 300px;
-    border-radius: 75px;
-    position: relative;
-    margin: auto;
-    display: flex;
-}
-.nwsltrbg{
-    position: absolute;
-    top: 447%;
-    left: 60%;
-    height: 300px;
-}
-.newsletter{
-    margin-top: 10%;
-    margin-bottom: 20%;
-}
-.rekt{
-    position: absolute;
-    left: 79.8%;
-    top: 440%;
-}
-.rect{
-    position: absolute;
-    left: 11.6%;
-    top: 462%;
-}
-.model{
-    margin-left: 100px;
-    padding-top: 80px;
+    margin-right: 1%;
+    margin-top: 0.8%;
 }
 .footer{
     border-top: 1px solid #e4e4e4;
     border-bottom: 1px solid #e4e4e4;
-    width: 1480px;
     display: flex;
-    margin: auto;
+    justify-content: space-between;
     margin-bottom: 2%;
+    margin-top: 5%;
 }
 .sublink {
-    width: 100%;
     padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 150px;
-}
-.mid{
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    margin-bottom: 25px;
-}
-.outro{
-    margin-top: 6.3%;
-}
-.margin{
-    margin-bottom: 5%;
 }
 .wwd,
 .company,
@@ -329,22 +236,18 @@ ul li ,a {
 .contact{
     margin-right: 120px;
 }
-.social{
+.margin{
     margin-bottom: 5%;
 }
-.slot:nth-child(odd){
-    margin-top: 100px;
+.outro{
+    margin-top: 6.3%;
 }
-.slot{
-    margin-right: 5%;
+.outro-text{
+    margin-bottom: 6%;
 }
-.slots{
-    display: flex;
-    float: right;
-    margin-right: 20%;
-    margin-top: 13%;
-}
-.bigtxt{
-    font-size: 20px;
-    margin-bottom: 7%;
+.uno{
+    position: absolute;
+    left: 2%;
+    top: 42%;
+    z-index: -10;
 }
