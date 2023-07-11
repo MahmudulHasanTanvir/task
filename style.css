@@ -7,8 +7,6 @@
 }
 .header,
 .help,
-.history,
-.testimonials,
 .footer{
     margin-left: 5%;
 }
@@ -151,8 +149,10 @@ a {
     margin-top: 10%;
     display: flex;
     justify-content: space-between;
+    margin-left: 3%;
 }
 .history-content{
+    margin-top: 2%;
     margin-right: 5%;
 }
 .testimonials{
@@ -165,25 +165,20 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 10%;
-}
-.testimonial-people{
-    margin-right: 5%;
+    margin-left: 3%;
 }
 .testimonial-msg{
     margin-top: 5%;
 }
 .words{
-    background: #f4f9ff;
-    border-radius: 75px;
-    position: relative;
     width: 90%;
     height: 300px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    margin-left: 9%;
 }
 .model{
-    margin-top: 7%;
+    margin-top: 6%;
     margin-left: 7%;
 }
 .email_box{
@@ -192,8 +187,8 @@ a {
     height: 80px;
     border-radius: 56px;
     box-shadow: 1px 2px 2px 1px #e4e4e4;
-    margin-right: 10%;
-    margin-top: 8%;
+    margin-right: 15%;
+    margin-top: 6%;
     display: flex;
     justify-content: space-between;
 }
@@ -247,7 +242,273 @@ a {
 }
 .uno{
     position: absolute;
-    left: 2%;
-    top: 42%;
+    left: 3%;
+    top: 44%;
     z-index: -10;
+}
+.dos{
+    position: absolute;
+    left: 57%;
+    top: 18.2%;
+    z-index: -10;
+}
+.tres{
+    position: absolute;
+    z-index: -10;
+    left: 83%;
+    top: 68%;
+}
+.cuatro{
+    position: absolute;
+    z-index: -10;
+    left: 3%;
+    top: 156%;
+}
+.cinco{
+    position: absolute;
+    left: 45%;
+    top: 139%;
+    z-index: -10;
+}
+.siete{
+    left: 30.8%;
+    top: 193%;
+    z-index: -20;
+}
+.seis{
+    left: 89%;
+    top: 201%;
+    z-index: -20;
+}
+.iimage{
+    left: 65.5%;
+    z-index: -10;
+    top: 245%;
+}
+.orb{
+    left: 29.8%;
+    top: 278%;
+    z-index: -10;
+}
+.point,
+.ring,
+.orbital,
+.bg,
+.background,
+.siete,
+.seis,
+.iimage,
+.orb{
+    position: absolute;
+}
+.ring{
+    left: 5%;
+    top: 378%;
+    z-index: -10;
+}
+.point{
+    left: 17%;
+    top: 344%;
+    z-index: -10;
+}
+.orbital{
+    left: 80%;
+    top: 356%;
+    z-index: -10;
+}
+.bg{
+    left: 60%;
+    z-index: -10;
+    margin-left: 3%;
+}
+.background{
+    z-index: -10;
+}
+.headline-text{
+    margin-top: 9%;
+}
+@media screen and (max-width:1440px) /* large laptop */ {
+    .uno{
+        position: absolute;
+        z-index: -10;
+        top: 50%;
+        left: 2.5%;
+    }
+    .dos{
+        position: absolute;
+        z-index: -10;
+        left: 44%;
+        top: 18.4%;
+    }
+    .tres{
+        position: absolute;
+        z-index: -10;
+        left: 80%;
+        top: 77%;
+    }
+    .cuatro{
+        position: absolute;
+        z-index: -10;
+        left: 2%;
+        top: 163%;
+    }
+    .siete{
+        position: absolute;
+        left: 8.2%;
+        top: 218%;
+        z-index: -20;
+    }
+    .seis{
+        position: absolute;
+        left: 87%;
+        top: 227%;
+        z-index: -20;
+    }
+    .iimage{
+        position: absolute;
+        left: 56%;
+        z-index: -10;
+        top: 273%;
+    }
+    .orb{
+        position: absolute;
+        left: 38%;
+        top: 320%;
+        z-index: -10;
+    }
+    .point,
+    .ring{
+        position: absolute;
+        z-index: -10;
+    }
+    .ring{
+        left: 5%;
+        top: 425%;
+    }
+    .point{
+        left: 22%;
+        top: 385%;
+    }
+    .orbital{
+        position: absolute;
+        left: 75%;
+        top: 399%;
+        z-index: -10;
+    }
+    .testimonial-msg{
+        margin-top: 5%;
+        margin-right: 2%;
+        font-size: 15px;
+    }
+    .bg{
+        position: absolute;
+        left: 54%;
+        z-index: -10;
+    }
+    .background{
+        position: absolute;
+        z-index: -10;
+    }
+}
+@media screen and (max-width:1024px) /* small laptop */ {
+    .frame{
+        width: 450px;
+    }
+    .uno{
+        width: 300px;
+        position: absolute;
+        left: 2.2%;
+        top: 35%;
+    }
+    .dos{
+        width: 100px;
+        position: absolute;
+        left: 51.5%;
+        top: 10%;
+    }
+    .tres{
+        width: 120px;
+        position: absolute;
+        left: 80%;
+        top: 45%;
+    }
+    .nav-links ul li a{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1% 2%;
+    }
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 20px 20px;
+        position: relative;
+    }
+    .heavy{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .short{
+        color: #565656;
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 24px;
+    }
+    .medium{
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+    .small{
+        line-height: 20px;
+        color: #757575;
+        font-size: 12px;
+    }
+    .headline-text{
+        margin-top: 6%;
+    }
+    .hero-btn{
+        width: 180px;
+        font-size: 16px;
+    }
+    .icons{
+        display: none;
+    }
+    .icon{
+        width: 520px;
+    }
+    .card_one,
+    .card_two,
+    .card_three,
+    .card_four{
+        background: #fff;
+        text-align: center;
+        width: 250px;
+        height: 340px;
+        border-radius: 40px;
+        box-shadow: 1px 1px 2px 2px #f2f2f2;
+        margin-bottom: 10%;
+    }
+    .cuatro{
+        position: absolute;
+        z-index: -10;
+        left: 2%;
+        top: 103%;
+    }
+    .cinco{
+        position: absolute;
+        left: 23%;
+        z-index: -10;
+        top: 112%;
+        width: 800px;
+    }
+    .slots{
+        display: flex;
+        float: right;
+        margin-right: 20%;
+    }
 }
