@@ -327,6 +327,9 @@ a {
 .headline-text{
     margin-top: 9%;
 }
+nav .fas{
+    display: none;
+}
 @media screen and (max-width:1440px) /* large laptop */ {
     .uno{
         position: absolute;
@@ -409,6 +412,13 @@ a {
         position: absolute;
         z-index: -10;
     }
+    .icons{
+        width: 220px;
+        padding-right: 90px;
+    }
+    .img{
+        margin-left: 2%;
+    }
 }
 @media screen and (max-width:1024px) /* small laptop */ {
     .frame{
@@ -476,10 +486,8 @@ a {
         font-size: 16px;
     }
     .icons{
-        display: none;
-    }
-    .icon{
-        width: 520px;
+        width: 170px;
+        padding-right: 50px;
     }
     .card_one,
     .card_two,
@@ -488,7 +496,7 @@ a {
         background: #fff;
         text-align: center;
         width: 250px;
-        height: 340px;
+        height: 330px;
         border-radius: 40px;
         box-shadow: 1px 1px 2px 2px #f2f2f2;
         margin-bottom: 10%;
@@ -497,18 +505,151 @@ a {
         position: absolute;
         z-index: -10;
         left: 2%;
-        top: 103%;
+        top: 127%;
+        width: 140px;
     }
     .cinco{
         position: absolute;
-        left: 23%;
+        left: 22%;
         z-index: -10;
-        top: 112%;
+        top: 111%;
         width: 800px;
     }
     .slots{
         display: flex;
         float: right;
         margin-right: 20%;
+    }
+    .help-content{
+        margin-top: 35%;
+    }
+    .seis{
+        position: absolute;
+        top: 168%;
+        width: 100px;
+        left: 88%;
+    }
+    .siete{
+        width: 300px;
+        position: absolute;
+        left: 4%;
+        top: 161%;
+    }
+    .video{
+        width: 450px;
+    }
+    .orb{
+        position: absolute;
+        top: 238%;
+        width: 100px;
+    }
+    .iimage{
+        width: 140px;
+        top: 209%;
+        left: 53%;
+    }
+    .person{
+        width: 300px;
+    }
+    .ppl{
+        width: 250px;
+    }
+    .orbital{
+        width: 120px;
+        position: absolute;
+        top: 298%;
+    }
+    .point{
+        position: absolute;
+        top: 286%;
+        left: 17%;
+        width: 150px;
+    }
+    .ring{
+        position: absolute;
+        top: 310%;
+        width: 100px;
+    }
+    .background{
+        width: 800px;
+        height: 200px;
+    }
+    .bg{
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        left: 55%;
+    }
+    .email_box{
+        width: 40%;
+        height: 40px;
+    }
+    .email{
+        font-size: 12px;
+    }
+    .hero-btn-small{
+        height: 40px;
+        width: 150px;
+        padding: 10px 25px;
+        font-size: 15px;
+        margin-top: 0.1%;
+    }
+    .wwd,
+    .company,
+    .support,
+    .contact{
+        margin-right: 50px;
+    }
+    .margin{
+        font-size: 14px;
+    }
+    .footer{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-bottom: 4%;
+    }
+}
+@media screen and (max-width:768px){
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 10;
+        transition: 1s
+    }
+    .nav-links ul li::after{
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: rgba(119, 47, 47, 0.4);
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+        width: 100%;
+    }
+    nav .fas{
+        display: block;
+        color: #000;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    .header{
+        overflow-y: hidden !important;
+    }
+    .frame{
+        width: 350px;
     }
 }
