@@ -511,12 +511,12 @@ nav .fas{
         left: 22%;
         z-index: -10;
         top: 111%;
-        width: 800px;
+        width: 700px;
     }
     .slots{
         display: flex;
         float: right;
-        margin-right: 20%;
+        margin-right: 0;
     }
     .help-content{
         margin-top: 35%;
@@ -649,5 +649,15 @@ nav .fas{
     }
     .frame{
         width: 350px;
+    }
+    .cinco,.background{
+        width: 600px;
+    }
+    .client_section .img{
+        width: 355px;
+    }
+    .hero-btn-small{
+        padding: 10px 12px;
+        margin-top: 0.6%;
     }
 }
