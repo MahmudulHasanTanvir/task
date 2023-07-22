@@ -266,7 +266,7 @@ a {
 }
 .cinco{
     position: absolute;
-    left: 22%;
+    left: 45%;
     top: 139%;
     z-index: -10;
 }
@@ -521,17 +521,22 @@ nav .fas{
     .help-content{
         margin-top: 35%;
     }
-    .seis{
+    .cinco{
         position: absolute;
-        top: 168%;
-        width: 100px;
-        left: 88%;
+        left: 27.5%;
+        top: 155%;
     }
     .siete{
-        width: 300px;
         position: absolute;
-        left: 4%;
-        top: 161%;
+        left: 10.1%;
+        top: 220%;
+        z-index: -20;
+    }
+    .seis{
+        position: absolute;
+        left: 85%;
+        top: 230%;
+        z-index: -20;
     }
     .video{
         width: 450px;
@@ -608,6 +613,9 @@ nav .fas{
     }
 }
 @media screen and (max-width:768px){
+    body{
+        overflow-x:hidden;
+    }
     .nav-links ul li{
         display: block;
     }
@@ -650,14 +658,111 @@ nav .fas{
     .frame{
         width: 350px;
     }
-    .cinco,.background{
-        width: 600px;
+    .cinco{
+        width: 400px;
     }
-    .client_section .img{
-        width: 355px;
+    .background{
+        width: 450px;
     }
     .hero-btn-small{
         padding: 10px 12px;
         margin-top: 0.6%;
+        height: 35px;
+        width: 150px;
+        padding: 9px 20px;
+        font-size: 12px;
+        margin-top: 1.2%;
+    }
+    .slots{
+        display: flex;
+        margin-right: 20%;
+        margin-top: 5%;
+
+    }
+    .seis{
+        position: absolute;
+        left: 0;
+    }
+    .point,
+    .ring,
+    .orbital,
+    .siete,
+    .seis,
+    .iimage,
+    .orb{
+        display: none;
+    }
+    .icons{
+        width: 150px;
+    }
+    .heavy{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .short{
+        color: #565656;
+        font-size: 12px;
+        font-weight: 400px;
+        line-height: 22px;
+    }
+    .medium{
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+    }
+    .small{
+        line-height: 20.6px;
+        color: #757575;
+        font-size: 11px;
+    }
+    .client_section{
+        display: block;
+        text-align: center;
+        margin-top: 10%;
+    }
+    .slot:nth-child(odd){
+        margin-top: 0px;
+    }
+    .help{
+        display: block;
+        text-align: center;
+    }
+    .history{
+        margin-top: 100%;
+        display: block;
+        text-align: center;
+    }          
+    .testimonial{
+        display: block;
+        margin-bottom: 5%;
+    }
+    .testimonial-img{
+        margin-left: 30%;
+    }
+    .testimonial-msg{
+        text-align: center;
+    }
+    .testimonial-people{
+        margin-left: 33%;
+        margin-top: 10%;
+    }
+    .email_box{
+        margin-top: 10%;
+        margin-left: 2%;
+    }
+    .email{
+        font-size: 10;
+    }
+    .model{
+        width: 400px;
+    }
+    .wwd,
+    .company,
+    .support,
+    .contact{
+        margin-right: 20px;
+    }
+    .outro{
+        margin-right: 5px;
     }
 }
