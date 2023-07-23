@@ -355,10 +355,14 @@ nav .fas{
         left: 2%;
         top: 163%;
     }
+    .cinco{
+        left: 27%;
+        top: 154%;
+    }
     .siete{
         position: absolute;
         left: 8.2%;
-        top: 218%;
+        top: 219%;
         z-index: -20;
     }
     .seis{
@@ -508,15 +512,11 @@ nav .fas{
     }
     .cinco{
         position: absolute;
-        left: 22%;
-        z-index: -10;
-        top: 111%;
-        width: 700px;
+        top: 0%;
     }
     .slots{
         display: flex;
         float: right;
-        margin-right: 0;
     }
     .help-content{
         margin-top: 35%;
