@@ -766,3 +766,38 @@ nav .fas{
         margin-right: 5px;
     }
 }
+@media screen and (max-width:425px) /* large laptop */ {
+    .cinco{
+        display: none;
+    }
+    .headline{
+        display: block;
+        text-align: center;
+    }.img{
+        display: flex;
+        flex-direction: column;
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+    .icons{
+        margin-bottom: 20%;
+    }
+    .slots{
+        display: flex;
+        flex-direction: column;
+    }
+    .frame{
+        margin-top: 10%;
+        
+    }
+    .bg,
+    .background,
+    .uno,
+    .dos,
+    .tres,
+    .cuatro,
+    .seis,
+    .siete{
+        display: none;
+    }
+}
